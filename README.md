@@ -7,18 +7,22 @@ A simple boilerplate application for starting a new React project with an Expres
     ```sh
     npm install
     ```
-3. Navigate to client folder and install dependencies:
+3. Install client dependencies:
     ```sh
-    cd client
-    npm install
+    npm run client-install
     ```
-4. Navigate back to root folder.
-5. Start server and client with: 
+4. Start server and client with: 
     ```sh
     npm run dev
     ```
-    A new browser tab should open with the application loaded.
-6. Check out `package.json` for more npm scripts.
+5. Start server only with:
+    ```sh
+    npm run server
+    ```
+6. Start client only with:
+    ```sh
+    npm run client
+    ```
 7. Start building!
 
 ## What's included?
@@ -41,5 +45,5 @@ Include these yourself depending on the projects needs.
 * SASS/LESS/Stylus
 
 ## License
-MIT
+This project is licensed under the MIT License.
 
