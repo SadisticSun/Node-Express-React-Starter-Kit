@@ -1,0 +1,23 @@
+{
+  "name": "app-starter-kit",
+  "version": "1.0.0",
+  "description": "A starting kit for creating apps with Node, Express and React.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "server": "nodemon server.js",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SadisticSun/Node-Express-React-Starter-Kit.git"
+  },
+  "author": "Tristan Jacobs",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SadisticSun/Node-Express-React-Starter-Kit/issues"
+  },
+  "homepage": "https://github.com/SadisticSun/Node-Express-React-Starter-Kit#readme"
+}
