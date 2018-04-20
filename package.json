@@ -19,5 +19,12 @@
   "bugs": {
     "url": "https://github.com/SadisticSun/Node-Express-React-Starter-Kit/issues"
   },
-  "homepage": "https://github.com/SadisticSun/Node-Express-React-Starter-Kit#readme"
+  "homepage": "https://github.com/SadisticSun/Node-Express-React-Starter-Kit#readme",
+  "devDependencies": {
+    "nodemon": "^1.14.6"
+  },
+  "dependencies": {
+    "concurrently": "^3.5.1",
+    "express": "^4.16.2"
+  }
 }
